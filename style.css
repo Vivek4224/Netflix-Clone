@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/Images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1000px, 100vw);
+  height: 70vh;
+  position: relative;
+  box-shadow: inset 40px 40px 6px 6px black;
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 62px;
+  position: relative;
+  z-index: 10;
+}
+
+nav img {
+  color: red;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  gap: 18px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 16px;
+}
